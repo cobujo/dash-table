@@ -58,7 +58,7 @@ export default class ColumnFilter extends PureComponent<
                         e.stopPropagation();
                     }}
                     value={value}
-                    placeholder={`filter data...`}
+                    placeholder={`filter`}
                     stopPropagation={true}
                     submit={this.submit}
                 />
